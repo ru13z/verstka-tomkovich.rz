@@ -18,6 +18,7 @@
         "del": "latest",
         "gulp": "latest",
         "gulp-autoprefixer": "latest",
+        "gulp-browserify": "latest",
         "gulp-clean-css": "latest",
         "gulp-file-include": "latest",
         "gulp-fonter": "latest",
@@ -46,6 +47,7 @@
         "webpack-stream": "latest"
     },
     "dependencies": {
+        "@glidejs/glide": "^3.5.2",
         "gulp-cli": "latest"
     }
 }

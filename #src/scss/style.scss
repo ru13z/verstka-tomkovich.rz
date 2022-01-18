@@ -1,4 +1,6 @@
 @import "fonts";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 // Colors
 $darkBlue: #30383d;
 $light: #E5F0F2;
@@ -103,3 +105,13 @@ header {
         }
     }
 }
+
+.box-search{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+// <!-- відео 1 ---- 53.00 -->

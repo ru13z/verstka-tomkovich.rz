@@ -10,7 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- Required Core Stylesheet -->
+<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 
+<!-- Optional Theme Stylesheet -->
+<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -46,10 +50,37 @@
     </div>
 </header>
 
-<!-- відео 1 ---- 23.00 -->
+
+
+
+    <div class="container">
+        <div class="box-search">
+            <form action="">
+                <input name="search" placeholder="Пошук по каталогу">
+                <button type="submit">
+                    <img src="img/search.png" alt="Пошук">
+                </button>
+            </form>
+        </div>
+    </div>
+
     <section class="section section-main">
         <div class="container">
+            <div class="glide" id="main-carousel">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">1</li>
+                        <li class="glide__slide">2</li>
+                        <li class="glide__slide">3</li>
+                    </ul>
+                </div>
 
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
+            </div>
         </div>
     </section>
 

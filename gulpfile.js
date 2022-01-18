@@ -26,6 +26,7 @@ import { svgSprive } from "./gulp/tasks/svgSprive.js";
 import { zip } from "./gulp/tasks/zip.js";
 import { ftp } from "./gulp/tasks/ftp.js";
 
+
 // наглядач за змінами в файлаз проекту
 function watcher() {
     gulp.watch(path.watch.files, copy)
